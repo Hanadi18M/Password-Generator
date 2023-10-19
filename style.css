@@ -1,0 +1,84 @@
+body {
+  background: var(--primary-color);
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --primary-color: #ecfdf5;
+  --secondary-color: #2b283a;
+}
+
+.dark-theme {
+  --primary-color: #1f2937;
+  --secondary-color: #ffffff;
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  margin-left: 52px;
+  margin-top: 0;
+}
+
+span {
+  display: block;
+  color: #10b981;
+}
+
+p {
+  color: #6b7280;
+  font-size: 20px;
+  margin-left: 52px;
+}
+
+.generate-btn {
+  background: #10b981;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 51px;
+  margin-left: 52px;
+  padding: 9px 15px;
+}
+.line {
+  margin: 35px 52px;
+  border-top: solid 1px #d5d4d8;
+  padding: 9px 16px;
+}
+.pass {
+  background: #273549;
+  color: #55f991;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 9px 16px;
+}
+
+#pass-one {
+  margin-left: 52px;
+}
+
+#pass-two {
+  margin-left: 24px;
+}
+
+.bi {
+  cursor: pointer;
+  font-size: 50px;
+  margin: 0px 0px 0px 52px;
+  -webkit-text-fill-color: #ffcc33;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fc9601;
+  text-shadow: 3px 3px 20px #fc9601, -2px 1px 30px #fc9601;
+}
+
+.bi-moon {
+  font-size: 45px;
+  margin: 10px 8px 20px 5px;
+  -webkit-text-fill-color: #c7c7c7;
+  -webkit-text-stroke-width: 0;
+  -webkit-text-stroke-color: #ffffff;
+  text-shadow: 0 0 15px #f5f5f5;
+}
